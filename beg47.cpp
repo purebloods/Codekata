@@ -17,5 +17,5 @@ int main()
 		if(a[i]>max)
 			max=a[i];
 	}
-	cout<<max<<" "<<min;
+	cout<<min<<" "<<max;
 }
