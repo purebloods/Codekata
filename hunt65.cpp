@@ -19,9 +19,15 @@ int main()
 			i--;
 		}
 	}
-	cout<<a[0];
-	for(int i=1;i<n;i++)
+	if(n==0)
+		cout<<"empty";
+	else
 	{
-		cout<<" "<<a[i];
+	
+		cout<<a[0];
+		for(int i=1;i<n;i++)
+		{
+			cout<<" "<<a[i];
+		}
 	}
 }
