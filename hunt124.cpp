@@ -7,7 +7,7 @@ int main()
 	for(int i=n;i>0;i--)
 	{
 		for (int j=i; j>0;j--)
-			cout<<"1";
+			cout<<"1 ";
 		cout<<"\n";
 	}	
 }
