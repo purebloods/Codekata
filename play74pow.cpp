@@ -5,5 +5,5 @@ int main()
 {
 	int n,k;
 	cin>>n>>k;
-	cout<<pow(n,k);
+	cout<<pow(n,k);//hghjfghjhgjfhjlbvcghj
 }
