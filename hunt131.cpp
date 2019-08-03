@@ -11,7 +11,7 @@ int main()
     {
         for(int j=0;j<n;j++)
         {
-            if(a[i]>a[j])
+            if(a[i]>=a[j])
             {
                 int t;
                 t=a[i];
@@ -27,6 +27,8 @@ int main()
         else
             cout<<" "<<a[i]<<" "<<a[n-i-1];
     }
+
+    if(n%2!=0)
+        cout<<" "<<a[n/2];
     return 0;
 }
-
