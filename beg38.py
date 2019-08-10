@@ -1,4 +1,6 @@
 a=(int)(input())
 b=(int)(input())
-a,b=b,a
+t=a
+a=b
+b=t
 print(a,b)
